@@ -122,7 +122,7 @@
                 <span class="post-date">December 12</span>
               </div>
           -->
-              <div class="post-content d-flex flex-column">
+              <!--<div class="post-content d-flex flex-column">
 
                 <h3 class="post-title">Coming Soon</h3>
               </div>      
@@ -336,6 +336,376 @@
 
       </div>
     </section><!-- End Blog Section -->
+
+    <!-- ======= Personal Detail Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="section-header">
+          <h2>Employment Application Forms</h2>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-map"></i>
+              <h3>Our Address</h3>
+              <p><strong>Manchester Office:</strong> Suite 60 Cariocca Business Park,<br>Hellidon Close. Ardwick. Manchester. M12 4AH.</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-envelope"></i>
+              <h3>Email Us</h3>
+              <p>career@1stcallbusinessservices.co.uk</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-telephone"></i>
+              <h3>Call Us</h3>
+              <p><strong>Phone:</strong> <a href="tel:0161 223 8088">0161 223 8088</a><br>
+                <strong>Phone:</strong> <a href="tel:0194 283 5300">0194 283 5300</a><br></p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+      <!-- ======= Employment Application Details Section ======= -->
+        <div class="row gy-4 mt-1">
+
+          <div class="col-lg-12">
+            <p>
+              Please ensure you complete all session of this form applicable to you, using BLACK INK in CAPITAL LETTERS only.
+            </p>
+          </div>
+
+          <div class="col-lg-12">
+            
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            
+              <div class="col-lg-6">
+                <h5 class="mb-2">1. Position Applied For?</h5>
+                <label>
+                  <select class="form-select" required="" name="job">
+                    <option value="">-Select job- *</option>
+                                          
+                    <option value="Concierge">Part Time</option>
+                                          
+                    <option value="Security Officer">Full Time</option>
+                  </select>
+                </label>
+              </div>
+              <br>
+              <h5 class="lg-6">2. Contact Details</h5>
+              <div class="row gy-4">
+                <div class="col-lg-2 form-group">
+                  <label>
+                    <select class="form-select" required="" name="title">
+                      <option value="">-Select Title- *</option>
+                                  
+                      <option value="Concierge">Mr.</option>
+                                            
+                      <option value="Security Officer">Mrs.</option>
+
+                      <option value="Security Officer">Miss.</option>
+
+                      <option value="Security Officer">Ms.</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="col-lg-5 form-group">
+                  <input type="text" name="surname" class="form-control" id="surname" placeholder="Surname" required>
+                </div>
+                <div class="col-lg-5 form-group">
+                  <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" required>
+                </div>
+
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="placeofbirth" class="form-control" id="placeofbirth" placeholder="Place of Birth" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="nationality" class="form-control" id="nationality" placeholder="Nationality" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="dateofbirth" class="form-control" id="dateofbirth" placeholder="Date of Birth" required>
+                </div>
+
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="ninumber" class="form-control" id="ninumber" placeholder="NI Number" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <select class="form-select" required="" name="maritalstaus">
+                    <option selected="" value="">Marital Status *</option>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Separated">Separated</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Widowed">Widowed</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                  </select>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="telphone" class="form-control" id="telphone" placeholder="Tel. Number" required>
+                </div>
+
+                <div class="col-lg-12 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="address" rows="5" placeholder="Address" required></textarea>
+                  <input type="text" name="postcode" class="form-control" id="postcode" placeholder="Post Code" required>
+                </div>
+              </div>
+              
+              <div class="col-lg-12">
+                <p>
+                  <input type="text" name="lived" class="form-control" id="lived" placeholder="Lived Here" required>
+                </p>
+                <p>
+                  If less than five(5) years, please provide your previous address below: (you must use a separate sheet if you have lived in more than one address).
+                </p>
+                <textarea class="form-control" name="address2" rows="3" placeholder="Address" required></textarea>
+                <input type="text" name="postcode2" class="form-control" id="postcode2" placeholder="Post Code" required>
+                <p>
+                  If you have come to live in the UK even if you are  a member of the EU, are you restricted from working in the United kingdom?
+                </p>
+                <div class="col-lg-4 form-group">
+                  <select class="form-select" required="" name="driving">
+                    <option selected="" value="">Select *</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                </div>
+                <input type="text" name="permit" class="form-control" id="permit" placeholder="If no, please fill in your permit number" required>
+                <input type="text" name="exdate" class="form-control" id="exdate" placeholder="Expiring Date" required>
+              </div>
+              <br>
+              <div class="col-lg-12 form-group">
+                <select class="form-select" required="" name="driving">
+                  <option selected="" value="">Do You Drive?</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+                <input type="text" name="dlicence" class="form-control" id="dlicence" placeholder="If yes, please fill in your licence number" required>
+              </div>
+              <h5 class="mb-2">3. About Your Experience</h5>
+                <p>
+                  Please provide details of your previous employer/s starting with your most recent employment.
+                </p>
+              <div class="col-lg-6 form-group">
+                <input type="text" name="empname" class="form-control" id="empname" placeholder="Employer’s name" required>
+              </div>
+              <div class="col-lg-4 form-group">
+                <input type="text" name="emptel" class="form-control" id="emptel" placeholder="Telephone No" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="empaddress" rows="5" placeholder="Employer's Address" required></textarea>
+                <input type="text" name="emppostcode" class="form-control" id="emppostcode" placeholder="Post Code" required>
+              </div>
+              <div class="form-group">
+               <h5 class="mb-2"><strong>4. Job Description</strong></h5> 
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="skill" rows="3" placeholder="Please give details of skills you have which you consider will be relevant to role of this employment." required></textarea>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="contribute" rows="3" placeholder="If you have previously worked in a team, a group of people, please provide example of how you contributed to a successful team work." required></textarea>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="unhappy" rows="3" placeholder="Please provide details of when you where unhappy working with the team and how you resolve a circumstance which affected your working behaviour." required></textarea>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="deadline" rows="3" placeholder="Give an example of when you had to complete task within deadline." required></textarea>
+              </div>
+              <div class="row gy-4">
+                  <h6 class="mb-2"><strong>4(a). Previous Employment Continued</strong></h6> 
+                <div class="col-lg-4 form-group">
+                  <textarea class="form-control" name="empdetails" rows="3" placeholder="Employer’s Details Including Address." required></textarea>
+                </div>
+                <div class="col-lg-2 form-group">
+                  <input type="text" name="dobemp" class="form-control" id="dobemp" placeholder="Date of Employment" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <textarea class="form-control" name="jobrole" rows="3" placeholder="Job Role and Responsibilities." required></textarea>
+                </div>
+                <div class="col-lg-2 form-group">
+                  <input type="text" name="lastpay" class="form-control" id="lastpay" placeholder="Last Pay" required>
+                </div>
+                  <textarea class="form-control" name="reason" rows="3" placeholder="Reason For leaving" required></textarea>
+
+                  <br>
+                  <br>
+                  <br>
+                  <h6 class="mb-2"><strong>4(b). Previous Employment 2</strong> (optional)</h6> 
+                <div class="col-lg-4 form-group">
+                  <textarea class="form-control" name="empdetails2" rows="3" placeholder="Employer’s Details Including Address." required></textarea>
+                </div>
+                <div class="col-lg-2 form-group">
+                  <input type="text" name="dobemp2" class="form-control" id="dobemp2" placeholder="Date of Employment" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <textarea class="form-control" name="jobrole2" rows="3" placeholder="Job Role and Responsibilities." required></textarea>
+                </div>
+                <div class="col-lg-2 form-group">
+                  <input type="text" name="lastpay2" class="form-control" id="lastpay2" placeholder="Last Pay" required>
+                </div>
+                  <textarea class="form-control" name="reason2" rows="3" placeholder="Reason For leaving" required></textarea>
+                
+                
+                <div class="col-lg-12 form-group">
+                    <select class="form-select" required="" name="illness">
+                      <option selected="" value="">Do you have any illness, which you believe would affect the way you work?</option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                  <textarea class="form-control" name="illnessdetail" rows="3" placeholder="If yes, please give details" required></textarea>
+                </div>
+              </div>
+
+              <div class="row gy-4">
+                <h5 class="mb-2">5. About Your Qualifications</h5>
+                <p>
+                  Please give details of the last school you attended.
+                </p>
+                <div class="col-lg-6 form-group">
+                  <input type="text" name="schname" class="form-control" id="dobemp2" placeholder="Name of School" required>
+                </div>
+                <div class="col-lg-12 form-group">
+                  <textarea class="form-control" name="schaddr" rows="3" placeholder="School Address." required></textarea>
+                </div>
+                <div class="col-lg-3 form-group">
+                  <input type="text" name="eduperiod" class="form-control" id="eduperiod" placeholder="Education Period" required>
+                </div>
+                <div class="col-lg-3 form-group">
+                  <input type="text" name="subread" class="form-control" id="subread" placeholder="Subject Read" required>
+                </div>
+                <div class="col-lg-3 form-group">
+                  <input type="text" name="grade" class="form-control" id="grade" placeholder="Grades" required>
+                </div>
+                <div class="col-lg-3 form-group">
+                  <input type="text" name="exam" class="form-control" id="exam" placeholder="Examination" required>
+                </div>
+                <div class="col-lg-12 form-group">
+                  <textarea class="form-control" name="brief" rows="3" placeholder="Please briefly explain why you are the best applicant for this job. *" required></textarea>
+                </div>
+                <div class="col-lg-12 form-group">
+                  <select class="form-select" required="" name="criminal">
+                    <option selected="" value="">Do you have a criminal conviction? *</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <textarea class="form-control" name="illnessdetail" rows="3" placeholder="If yes, you will be asked to provide detail, including dates of conviction, and case reference number before a job offer" required></textarea>
+                </div>
+              </div>
+
+              <div class="row gy-4">
+                <h5 class="mb-2">6. References</h5>
+                <p>
+                  Please provide two references, of which one must be your previous employer and the other must be a person with key responsibility
+                </p>
+                <div class="col-lg-5 form-group">
+                  <input type="text" name="rfname" class="form-control" id="rfname" placeholder="Full Name *" required>
+                </div>
+                <div class="col-lg-5 form-group">
+                  <input type="text" name="rfposition" class="form-control" id="rfposition" placeholder="Position *" required>
+                </div>
+                <div class="col-lg-12 form-group">
+                  <textarea class="form-control" name="rfadd" rows="3" placeholder="Address. *" required></textarea>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="rftel" class="form-control" id="rftel" placeholder="Telephone *" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="number" name="rfphone" class="form-control" id="rfphone" placeholder="Phone *" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="email" name="rfemail" class="form-control" id="rfemail" placeholder="Email *" required>
+                </div>
+                <p class="mb-20 leading-lg" style="font-weight:bold">Reference 2</p>
+                <div class="col-lg-5 form-group">
+                  <input type="text" name="rfname" class="form-control" id="rfname" placeholder="Full Name *" required>
+                </div>
+                <div class="col-lg-5 form-group">
+                  <input type="text" name="rfposition" class="form-control" id="rfposition" placeholder="Position *" required>
+                </div>
+                <div class="col-lg-12 form-group">
+                  <textarea class="form-control" name="rfadd" rows="3" placeholder="Address. *" required></textarea>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="text" name="rftel" class="form-control" id="rftel" placeholder="Telephone *" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="number" name="rfphone" class="form-control" id="rfphone" placeholder="Phone *" required>
+                </div>
+                <div class="col-lg-4 form-group">
+                  <input type="email" name="rfemail" class="form-control" id="rfemail" placeholder="Email *" required>
+                </div>
+                <div class="col-md-12 p-3">
+                  <h5 class="mb-8">7. Declaration</h5>
+                  <p class="leading-lg">I hereby confirm that all information given above is true to the best of my knowledge, and that 1st Call Business Services Limited may verify this information and seek references from the names provided on my behalf.</p>
+                  <p class="mb-20 leading-lg">In the event of any misleading information, I understand that my employment may be terminated without notice or other disciplinary measure may be taken against me.</p>
+                  <div class="row">
+                    <div class="col-md-6 p-3 mb-2">
+                      <label>
+                        E-Signature*:
+                        <input type="text" name="" placeholder="" required>
+                      </label>
+                    </div>
+                    <div class="col-md-6 p-3 mb-2">
+                      <label>
+                        Date*:
+                        <input type="date" name="tdate" placeholder="" required class="datepicker">
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+            
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Thank you! Your Application has been received and will be attended to.</div>
+              </div>
+              <div class="text-center"><button type="submit">
+                Submit</button>
+              </div>
+            </form>
+          </div>
+            
+
+
+
+
+              
+              
+              <!-- ======= End Employment Application Detail Section ======= -->
+<!--
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+    </div>
 
   </main><!-- End #main -->
 
